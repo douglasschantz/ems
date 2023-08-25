@@ -3,14 +3,14 @@ package com.github.schantz.ems.dto;
 import java.util.Objects;
 
 public class EmployeDto {
-	
+
 	private Long id;
 	private String name;
-	private String email;	
-	
+	private String email;
+
 	public EmployeDto() {
 	}
-	
+
 	public EmployeDto(Long id, String name, String email) {
 		this.id = id;
 		this.name = name;
@@ -62,5 +62,5 @@ public class EmployeDto {
 	public String toString() {
 		return "EmployeDto [id=" + id + ", name=" + name + ", email=" + email + "]";
 	}
-	
+
 }
